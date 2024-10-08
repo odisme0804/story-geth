@@ -21,12 +21,12 @@ import (
 	"sync"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/rawdb"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/trie/trienode"
+	"github.com/odisme0804/story-geth/trie/triestate"
 )
 
 // diskLayer is a low level persistent layer built on top of a key-value store.

@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/odisme0804/story-geth/accounts/keystore"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/console/prompt"
+	"github.com/odisme0804/story-geth/p2p/dnsdisc"
+	"github.com/odisme0804/story-geth/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/odisme0804/story-geth/beacon/engine"
+	"github.com/odisme0804/story-geth/beacon/types"
+	"github.com/odisme0804/story-geth/common"
+	ctypes "github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/rpc"
 )
 
 type engineClient struct {

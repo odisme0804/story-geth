@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/odisme0804/story-geth/accounts"
+	"github.com/odisme0804/story-geth/accounts/keystore"
+	"github.com/odisme0804/story-geth/cmd/utils"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

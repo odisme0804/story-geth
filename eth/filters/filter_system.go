@@ -25,17 +25,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/odisme0804/story-geth"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/lru"
+	"github.com/odisme0804/story-geth/core"
+	"github.com/odisme0804/story-geth/core/bloombits"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/ethdb"
+	"github.com/odisme0804/story-geth/event"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/params"
+	"github.com/odisme0804/story-geth/rpc"
 )
 
 // Config represents the configuration of the filter system.

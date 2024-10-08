@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/console/prompt"
+	"github.com/odisme0804/story-geth/core"
+	"github.com/odisme0804/story-geth/eth"
+	"github.com/odisme0804/story-geth/eth/ethconfig"
+	"github.com/odisme0804/story-geth/internal/jsre"
+	"github.com/odisme0804/story-geth/miner"
+	"github.com/odisme0804/story-geth/node"
 )
 
 const (

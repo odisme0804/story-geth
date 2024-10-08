@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/math"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/rlp"
 )
 
 var (

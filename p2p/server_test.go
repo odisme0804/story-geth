@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/internal/testlog"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/p2p/enode"
+	"github.com/odisme0804/story-geth/p2p/enr"
+	"github.com/odisme0804/story-geth/p2p/rlpx"
 )
 
 type testTransport struct {

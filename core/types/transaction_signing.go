@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

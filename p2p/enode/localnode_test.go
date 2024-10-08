@@ -22,9 +22,9 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/p2p/enr"
+	"github.com/odisme0804/story-geth/p2p/netutil"
 	"github.com/stretchr/testify/assert"
 )
 

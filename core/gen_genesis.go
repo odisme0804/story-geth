@@ -7,11 +7,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/hexutil"
+	"github.com/odisme0804/story-geth/common/math"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

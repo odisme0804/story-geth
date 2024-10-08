@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/holiman/uint256"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/rawdb"
+	"github.com/odisme0804/story-geth/core/tracing"
+	"github.com/odisme0804/story-geth/core/types"
 )
 
 func filledStateDB() *StateDB {

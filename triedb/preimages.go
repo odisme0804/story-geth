@@ -19,9 +19,9 @@ package triedb
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/rawdb"
+	"github.com/odisme0804/story-geth/ethdb"
 )
 
 // preimageStore is the store for caching preimages of node key.

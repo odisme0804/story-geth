@@ -21,9 +21,9 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/odisme0804/story-geth/beacon/merkle"
+	"github.com/odisme0804/story-geth/beacon/params"
+	"github.com/odisme0804/story-geth/common"
 	zrntcommon "github.com/protolambda/zrnt/eth2/beacon/common"
 )
 

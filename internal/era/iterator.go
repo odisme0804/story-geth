@@ -21,8 +21,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/rlp"
 )
 
 // Iterator wraps RawIterator and returns decoded Era1 entries.

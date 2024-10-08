@@ -25,13 +25,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/odisme0804/story-geth/cmd/utils"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/p2p/discover"
+	"github.com/odisme0804/story-geth/p2p/enode"
+	"github.com/odisme0804/story-geth/p2p/nat"
+	"github.com/odisme0804/story-geth/p2p/netutil"
 )
 
 func main() {

@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/consensus/ethash"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/params"
+	"github.com/odisme0804/story-geth/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

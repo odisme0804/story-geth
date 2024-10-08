@@ -25,12 +25,12 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/hexutil"
+	"github.com/odisme0804/story-geth/core/tracing"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/core/vm"
+	"github.com/odisme0804/story-geth/eth/tracers"
 )
 
 //go:generate go run github.com/fjl/gencodec -type flatCallAction -field-override flatCallActionMarshaling -out gen_flatcallaction_json.go

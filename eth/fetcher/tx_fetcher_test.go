@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/mclock"
+	"github.com/odisme0804/story-geth/core/txpool"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/params"
 )
 
 var (

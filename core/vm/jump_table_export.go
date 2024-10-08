@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/odisme0804/story-geth/params"
 )
 
 // LookupInstructionSet returns the instruction set for the fork configured by

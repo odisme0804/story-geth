@@ -20,16 +20,16 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/odisme0804/story-geth/core/rawdb"
+	"github.com/odisme0804/story-geth/core/state"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/params"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/odisme0804/story-geth/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/params"
+	"github.com/odisme0804/story-geth/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/odisme0804/story-geth/beacon/params"
+	"github.com/odisme0804/story-geth/beacon/types"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/lru"
+	"github.com/odisme0804/story-geth/common/mclock"
+	"github.com/odisme0804/story-geth/core/rawdb"
+	"github.com/odisme0804/story-geth/ethdb"
+	"github.com/odisme0804/story-geth/log"
 )
 
 var (

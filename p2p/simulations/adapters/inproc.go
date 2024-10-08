@@ -25,14 +25,14 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
+	"github.com/odisme0804/story-geth/event"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/node"
+	"github.com/odisme0804/story-geth/p2p"
+	"github.com/odisme0804/story-geth/p2p/enode"
+	"github.com/odisme0804/story-geth/p2p/simulations/pipes"
+	"github.com/odisme0804/story-geth/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/odisme0804/story-geth"
+	"github.com/odisme0804/story-geth/core"
+	"github.com/odisme0804/story-geth/event"
+	"github.com/odisme0804/story-geth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

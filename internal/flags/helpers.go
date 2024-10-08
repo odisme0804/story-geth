@@ -23,10 +23,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/mattn/go-isatty"
+	"github.com/odisme0804/story-geth/internal/version"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/params"
 	"github.com/urfave/cli/v2"
 )
 

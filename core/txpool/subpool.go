@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
 	"github.com/holiman/uint256"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/event"
 )
 
 // LazyTransaction contains a small subset of the transaction properties that is

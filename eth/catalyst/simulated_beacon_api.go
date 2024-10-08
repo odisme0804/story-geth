@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/log"
 )
 
 type api struct {

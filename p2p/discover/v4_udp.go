@@ -29,11 +29,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/odisme0804/story-geth/crypto"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/p2p/discover/v4wire"
+	"github.com/odisme0804/story-geth/p2p/enode"
+	"github.com/odisme0804/story-geth/p2p/netutil"
 )
 
 // Errors

@@ -21,10 +21,10 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/tracing"
+	"github.com/odisme0804/story-geth/params"
 )
 
 var activators = map[int]func(*JumpTable){

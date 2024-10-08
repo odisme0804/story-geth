@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/state"
+	"github.com/odisme0804/story-geth/core/stateless"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

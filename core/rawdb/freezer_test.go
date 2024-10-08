@@ -27,9 +27,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb/ancienttest"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/odisme0804/story-geth/core/rawdb/ancienttest"
+	"github.com/odisme0804/story-geth/ethdb"
+	"github.com/odisme0804/story-geth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

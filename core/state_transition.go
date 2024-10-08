@@ -21,14 +21,14 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/odisme0804/story-geth/common"
+	cmath "github.com/odisme0804/story-geth/common/math"
+	"github.com/odisme0804/story-geth/core/tracing"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/core/vm"
+	"github.com/odisme0804/story-geth/crypto/kzg4844"
+	"github.com/odisme0804/story-geth/params"
 )
 
 // ExecutionResult includes all output after executing given evm

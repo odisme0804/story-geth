@@ -22,10 +22,10 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

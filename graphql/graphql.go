@@ -27,17 +27,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/odisme0804/story-geth"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/hexutil"
+	"github.com/odisme0804/story-geth/common/math"
+	"github.com/odisme0804/story-geth/consensus/misc/eip1559"
+	"github.com/odisme0804/story-geth/core/state"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/eth/filters"
+	"github.com/odisme0804/story-geth/internal/ethapi"
+	"github.com/odisme0804/story-geth/rlp"
+	"github.com/odisme0804/story-geth/rpc"
 )
 
 var (

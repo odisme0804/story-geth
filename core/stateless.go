@@ -17,17 +17,17 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/common/lru"
+	"github.com/odisme0804/story-geth/consensus/beacon"
+	"github.com/odisme0804/story-geth/consensus/ethash"
+	"github.com/odisme0804/story-geth/core/state"
+	"github.com/odisme0804/story-geth/core/stateless"
+	"github.com/odisme0804/story-geth/core/types"
+	"github.com/odisme0804/story-geth/core/vm"
+	"github.com/odisme0804/story-geth/params"
+	"github.com/odisme0804/story-geth/trie"
+	"github.com/odisme0804/story-geth/triedb"
 )
 
 // ExecuteStateless runs a stateless execution based on a witness, verifies

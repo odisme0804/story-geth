@@ -19,16 +19,16 @@ package triedb
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
-	"github.com/ethereum/go-ethereum/triedb/database"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/core/rawdb"
+	"github.com/odisme0804/story-geth/ethdb"
+	"github.com/odisme0804/story-geth/log"
+	"github.com/odisme0804/story-geth/trie"
+	"github.com/odisme0804/story-geth/trie/trienode"
+	"github.com/odisme0804/story-geth/trie/triestate"
+	"github.com/odisme0804/story-geth/triedb/database"
+	"github.com/odisme0804/story-geth/triedb/hashdb"
+	"github.com/odisme0804/story-geth/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

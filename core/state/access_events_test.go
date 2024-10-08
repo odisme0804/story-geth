@@ -19,9 +19,9 @@ package state
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/odisme0804/story-geth/common"
+	"github.com/odisme0804/story-geth/params"
+	"github.com/odisme0804/story-geth/trie/utils"
 )
 
 var (

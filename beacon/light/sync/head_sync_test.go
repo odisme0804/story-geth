@@ -19,9 +19,9 @@ package sync
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/odisme0804/story-geth/beacon/light/request"
+	"github.com/odisme0804/story-geth/beacon/types"
+	"github.com/odisme0804/story-geth/common"
 )
 
 var (
